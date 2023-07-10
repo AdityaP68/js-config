@@ -1,0 +1,42 @@
+.graphsGrid {
+  margin-top: 2.5rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 95px 328px;
+  .gridCard {
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    background-color: #ffffff;
+  }
+}
+
+.pieGraphsWrapper {
+  grid-column: 4;
+  grid-row: 1 / span 2;
+  background-color: aqua;
+  .graphWrapper {
+    width: 265px;
+    height: 265px;
+    margin: auto;
+  }
+}
+.barGraphWrapper {
+  padding: 1rem;
+  grid-column: 1 / span 3;
+  .cardTitle {
+    padding: 0.5rem 1rem;
+    h2 {
+      font-size: 1rem;
+    }
+  }
+  .graphWrapper {
+    margin-top: 1.5rem;
+    height: 250px;
+    position: relative;
+    left: -12px;
+  }
+}
+.statsWrapper {
+}
